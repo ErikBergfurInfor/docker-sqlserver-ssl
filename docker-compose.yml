@@ -1,0 +1,6 @@
+version: '2'
+services:
+    db:
+        build: sqlserver
+        ports:
+            - 1433:1433
